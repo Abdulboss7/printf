@@ -97,18 +97,15 @@ ring,
 
 {
 
-  int length;
+    int length;
 
-  _printf(''% s'', ''Hello, Holberton !'')
+    _printf(''% s'', ''Hello, Holberton !'')
 
-      _printf(''Hello Holberton !contains % d characters'', length);
+        _printf(''Hello Holberton !contains % d characters'', length);
 
-  length = _printf(''Hello Holberton !'');
+    length = _printf(''Hello Holberton !'');
 
-  return (0);
+    return (0);
 }
 .SH SEE ALSO
     .R printf(3)
-    .SH AUTHORS
-    Emmanuel Kolawole
-    Abdulbasit Adeoye
